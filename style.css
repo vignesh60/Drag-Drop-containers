@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgb(20,22,60);
+}
+
+.container,
+.drop-box {
+    width: 25vw;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    border: white 2px dashed;
+    gap: 25px;
+    padding: 20px 5px;
+}
+
+.item {
+    width: 85%;
+    background: rgb(166, 25, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15%;
+    border-radius: 5px;
+    cursor: grab;
+    user-select: none;
+    color: #f8d4f9;
+    
+}
